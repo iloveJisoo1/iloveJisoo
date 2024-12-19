@@ -1,0 +1,35 @@
+body{
+    margin: 0;  
+    height: 100vh;  
+    background: linear-gradient(to top left, #33ccff 0%, #ff99cc 100%);
+    background-size:  400% 400%;
+    animation: bg 10s ease infinite;
+}
+@keyframes bg{
+    0%{
+        background-position: 0% 50%;
+    }
+    50%{
+        background-position: 100% 100%;
+    }    
+    100%{
+        background-position: 0% 50%;
+    }
+}
+.content-section .social{
+    margin-top:  90px;
+
+}
+.content-section .social{
+    color: #a52a2a;
+    font-size: 70px;
+    padding: 0px 10px;
+}
+.content-section .image{
+    margin-top:  70px;
+}
+.content-section .image{
+    color: #a52a2a;
+    font-size: 30px;
+    padding: 0px 10px;
+}
